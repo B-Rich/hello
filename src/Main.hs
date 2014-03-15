@@ -8,4 +8,4 @@ import Control.Concurrent (threadDelay)
 main = do
     print $ Just 10 ^? _Just
     x <- getLine
-    putStrLn $ "Welcome to FP Haskell Center!" ++ x
+    putStrLn $ "Goodbye FP Haskell Center!" ++ x
